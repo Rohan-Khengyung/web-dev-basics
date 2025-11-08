@@ -10,7 +10,7 @@ img {
 }
 /* Hero Section */
 .hero{
-    background-image: url(images/village.gif);
+    background-image: url("images/village.gif");
     background-size: cover;
     height: 600px;
     display: flex;
