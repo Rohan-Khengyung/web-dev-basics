@@ -10,3 +10,5 @@
 //     console.log(count)
 // }
 
+let wish = "I'd love to see the show \"The Lioi King\"."
+console.log(wish)
