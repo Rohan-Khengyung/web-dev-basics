@@ -1,0 +1,87 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    border-radius: 100px;
+}
+/* Hero Section */
+.hero{
+    background-image: url("images/village.gif");
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#hero-title{
+    font-size: 34px;
+    background-color: #1D3557;
+    border-radius: 12px;
+    color: #ffff;
+    width: 220px;
+    margin: 0 auto;
+    padding: 8px 8px;
+}
+
+#hero-text{
+    font-size: 26px;
+    background-color: #0e7fac;
+    border-radius: 12px;
+    color: #ffff;
+    width: 600px;
+    margin: 20px auto 0 auto;
+    padding: 8px 8px;
+}
+
+/* Activities Section */
+.activities-section{
+    background-color: #F1FAEE;
+    color: #1D3557;
+    height: 420px;
+}
+#activities-title{
+    font-size: 24px;
+    display: inline-flex;
+}
+
+.activities{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/* Guide Section */
+.avatar{
+    width: 200px;
+    border-radius: 12px;
+}
+
+.guide{
+    margin: 40px auto;
+    width: 400px;
+    background-color: #A8DADC;
+    display: flex;
+    justify-content:space-around;
+    padding: 20px; 
+    border-bottom: 5px solid #1D3557;
+    border-radius: 12px;
+}
+
+#guide-testimony{
+    font-style: italic;
+}
+#guide-title, #guide-name, #guide-testimony{
+   color:#1D3557;
+}
+#guide-title{
+    font-size: 24px;
+}
+#guide-name{
+    font-size: 18px;
+}
