@@ -59,3 +59,7 @@ button{
     display: block;
     margin: 0 auto 10px auto;
 }
+#save-el{
+    font-weight: bolder;
+    font-size: 20px;
+}
