@@ -15,3 +15,4 @@ function save(){
     count = 0
 }
 
+alert("Let's count people on the subway!")
