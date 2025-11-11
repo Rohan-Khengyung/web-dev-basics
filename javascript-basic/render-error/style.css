@@ -1,0 +1,29 @@
+body{
+    margin: 200px;
+    background-color: #ffff;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 400px;
+    height: 300px;
+}
+p{
+    font-weight: bolder;
+    font-size: 20px;
+}
+button{
+    background-color: #ffff;
+    padding: 10px 10px;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+#error{
+    color: red;
+    font-size: 14px;
+    font-weight: normal;
+    font-family:monospace
+}
