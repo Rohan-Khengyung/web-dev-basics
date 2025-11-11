@@ -1,6 +1,7 @@
 body{
     margin-top: 200px;
     text-align: center;
+    font-family: monospace;
 }
 button{
     padding: 10px;
