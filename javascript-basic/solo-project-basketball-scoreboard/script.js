@@ -46,6 +46,12 @@ function plusThrees(){
 
 //Next Game
 function nextGame(){
+    addOne = 0
+    addTwo = 0
+    addThree = 0
+    addOnes = 0
+    addTwos = 0
+    addThrees = 0
     guestScore.textContent = 0
     homeScore.textContent = 0
 }
