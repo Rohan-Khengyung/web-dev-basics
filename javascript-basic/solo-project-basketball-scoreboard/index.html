@@ -4,9 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basketball Scoreboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
+    <div class="container">
+        <div class="home">
+            <h1>Home</h1>
+            <p id="home-score">0</p>
+            <button onclick="plusOne()">+1</button>
+            <button onclick="plusTwo()">+2</button>
+            <button onclick="plusThree()">+3</button><br>
+        </div>
+        <div class="guest">
+            <h1>Guest</h1>
+            <p id="guest-score">0</p>
+            <button onclick="plusOnes()">+1</button>
+            <button onclick="plusTwos()">+2</button>
+            <button onclick="plusThrees()">+3</button>
+        </div>
+        <button id="next-game" onclick="nextGame()">Next Game</button>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
