@@ -4,8 +4,3 @@ body{
 .container{
     align-items: center;
 }
-#paragraph-1, #paragraph-2{
-    display: inline;
-    background-color: #273549;
-    color: white;
-}
