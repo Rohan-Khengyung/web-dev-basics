@@ -8,7 +8,7 @@ let passwordElOne = document.getElementById("password-one")
 let passwordElTwo = document.getElementById("password-two")
 
 let passwordLength = 15
-
+// takes out the random characters from the constant array 'characters'
 function getRandomCharacter(){
     let randomChar = Math.floor(Math.random() * characters.length)
     return characters[randomChar]
@@ -16,17 +16,19 @@ function getRandomCharacter(){
 getRandomCharacter()
 
 
-function getRandomPassword(){
-    let randomPassword = ""
-    for(i = 0; i < passwordLength; i++){
-        randomPassword += getRandomCharacter()
-    }
+function getRandomPassword(){ // function to create random password
+    let randomPassword = "" // empty strings
+    for(i = 0; i < passwordLength; i++){ // starts the loop then end at 15 range which is passwordLenght
+        randomPassword += getRandomCharacter() // takes the random character from the function getRandomCharacter() and adds the each random character of after another 14 times beacuse its goes upto only 14
+     }
     return randomPassword
 }
+ 
+const generatedPasswordOne = getRandomPassword() // vairables that stores the getRandomPassword() function for the first password 
 
-const generatedPasswordOne = getRandomPassword()
+const generatedPasswordTwo = getRandomPassword() // vairables that stores the getRandomPassword() function for the second password 
 
-const generatedPasswordTwo = getRandomPassword()
+// prints out the generatedPasswordOne and generatedPasswordTwo using the textCotent in the index.html docuemnts
 function password(){
     passwordElOne.textContent = generatedPasswordOne
     passwordElTwo.textContent = generatedPasswordTwo
