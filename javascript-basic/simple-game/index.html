@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Match Challenge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <header>
+            <h1>Color Match Challenge</h1>
+            <div class="score-board">
+                <div>Round: <span id="round">1</span>/5</div>
+                <div>Score: <span id="score">0</span></div>
+            </div>
+        </header>
+        
+        <main>
+            <div class="color-display">
+                <div class="target-color" id="targetColor"></div>
+                <div class="player-color" id="playerColor"></div>
+            </div>
+            
+            <div class="controls">
+                <div class="slider-container">
+                    <label for="redSlider">Red</label>
+                    <input type="range" id="redSlider" min="0" max="255" value="128">
+                    <span id="redValue">128</span>
+                </div>
+                
+                <div class="slider-container">
+                    <label for="greenSlider">Green</label>
+                    <input type="range" id="greenSlider" min="0" max="255" value="128">
+                    <span id="greenValue">128</span>
+                </div>
+                
+                <div class="slider-container">
+                    <label for="blueSlider">Blue</label>
+                    <input type="range" id="blueSlider" min="0" max="255" value="128">
+                    <span id="blueValue">128</span>
+                </div>
+            </div>
+            
+            <div class="actions">
+                <button id="checkBtn">Check Match</button>
+                <button id="nextBtn" disabled>Next Round</button>
+            </div>
+            
+            <div class="result" id="result"></div>
+        </main>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
