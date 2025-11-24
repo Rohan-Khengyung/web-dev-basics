@@ -1,3 +1,17 @@
 body{
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    background-color: #111827;
+    
+}
+.container{
+    width: 400px;
+    margin: 0 auto;
+}
+.upper-section{
+    background-color: #6943FF;
+}
+.lower-section{
+    margin-top: -20px;
+    background-color: #F4F4F4;
 }
