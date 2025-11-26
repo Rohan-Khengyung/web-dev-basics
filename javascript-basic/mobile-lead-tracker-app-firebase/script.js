@@ -31,6 +31,7 @@ function render(leads) {
     ulEl.innerHTML = listItems
 }
 
+
 deleteBtn.addEventListener("dblclick", function() {
     myLeads = []
     render()
