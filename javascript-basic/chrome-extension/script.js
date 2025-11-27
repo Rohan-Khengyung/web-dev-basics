@@ -11,8 +11,9 @@ if (leadsFromLocalStorage) {
     render(myLeads)
 }
 
+
 tabBtn.addEventListener("click", function(){    
-    chrome.tabs.query({active: true, currentWindow: true}, function(tabs){
+    chrome.tabs.query({active: true, currentWindow: true}, function(tabs){ // Ask Chrome API(Application Processing Interface) to Query (get) for the Active tabs of the current windows
         myLeads.push(tabs[0].url)
         localStorage.setItem("myLeads", JSON.stringify(myLeads) )
         render(myLeads)
