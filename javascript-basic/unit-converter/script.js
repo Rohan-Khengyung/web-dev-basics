@@ -10,3 +10,6 @@ convBtn.addEventListener("click", function(){
     console.log("Printing")
 })
 
+function unitConverter(){
+    console.log("convert")
+}
